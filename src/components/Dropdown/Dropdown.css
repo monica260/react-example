@@ -1,0 +1,24 @@
+.css-yk16xz-control,.css-1pahdxg-control{
+    background: none !important;
+    border: none!important;
+    border-bottom: 1px solid #b11f24!important;
+    /* color: white; */
+    border-radius: unset!important;
+    box-shadow: none !important;
+}
+.css-1uccc91-singleValue,.css-1wa3eu0-placeholder{
+    /* color: white !important; */
+}
+.css-1okebmr-indicatorSeparator{
+    display: none;
+}
+.css-2b097c-container{
+    color: black !important;
+    font-weight: normal;
+  }
+  .css-g1d714-ValueContainer{
+      padding: 0 !important;
+  }
+  .css-1wa3eu0-placeholder{
+    color: hsl(0, 0%, 50%) !important;
+  }

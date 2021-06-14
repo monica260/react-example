@@ -1,0 +1,35 @@
+.logo-width{
+    width: 135px;
+}
+.Header{
+    background-color: white;
+    /* box-shadow: 0px 8px 0px -5px rgb(0 0 0 / 50%); */
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.Header nav{
+    border-bottom: 1px solid #e4e7ec;
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color: #b11f24 !important;
+    border-color: #b11f24;
+    border-bottom: 3px solid;
+    font-weight: 700;
+    box-shadow: 0 8px 7px -7px black;
+}
+.navbar-light .navbar-nav .nav-link.login.active{
+    box-shadow: none !important;
+    border: none !important;
+}
+.navbar-brand{
+    margin-right: 2rem !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-right: .7rem !important;
+    padding-left: .7rem !important;
+}
+.navbar-light .navbar-nav .nav-link{
+  font-weight: 700;
+}

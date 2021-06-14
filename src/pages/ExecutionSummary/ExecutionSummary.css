@@ -1,0 +1,56 @@
+.execution{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+}
+.execution-filter{
+    min-width: 220px;
+    max-width: 202px;
+    margin-right: 25px;
+    padding: 20px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 4px 6px -1px, rgb(0 0 0 / 6%) 0px 2px 4px -1px;
+}
+.execution-table{
+    flex-grow: 4;
+}
+.filter-label{
+    position: absolute;
+    left: 40px;
+    top:466px;
+}
+/* .date-filter{
+    position: absolute;
+    left: 40px;
+    top:330px;
+} */
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: transparent !important;
+    outline: 0;
+    box-shadow: none !important;
+    border: 0 ;
+    border-bottom: 1px solid #b11f24 ;
+    border-radius: 0;
+}
+#select-filter-column-status,.date-filter{
+    border: 0 ;
+    border-bottom: 1px solid #b11f24 ;
+    border-radius: 0;
+    font-size: .8rem;
+}
+.execution-filter{
+    text-align: left;
+    font-size: .8em;
+    font-weight: 700;
+    color: #b11f24;
+}
+.execution-filter p{
+    font-size: 1.27em!important;
+    font-weight: 700;
+}
+.execution-table>div:first-child,.title>h4{
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-align: left;
+}

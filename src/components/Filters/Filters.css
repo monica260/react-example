@@ -1,0 +1,26 @@
+.clearbutton{
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    /*optional*/
+  
+    /*input has OS specific font-family*/
+    color: #ddd;
+    font-weight: 700;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.Filters{
+    font-size: .8em;
+   }
+.Filters>div{
+    color: #ddd;
+    font-weight: 700;
+}
+.Filters>h3{
+    font-size: 1.27em!important;
+    font-weight: 700;
+}
+.filter-label{
+    display: block !important;
+}

@@ -1,0 +1,96 @@
+.Homepage{
+    background-image: url("../../images/banner-home.jpg");
+    height: 400px;
+    width: 100%;
+    /* background: #B11F24 linear-gradient(to bottom, #B11F24, #331C0D); */
+    background-size: cover;
+    /* min-height: 100vh; */
+    background-position: 80%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 60px;
+    flex-direction: column;
+
+}
+.Homepage > h2{
+font-size: 1.8em;
+font-weight: 700;
+color: #fff;
+}
+.Homepage > h2:hover{transform: scale(1.2); -webkit-transform: scale(1.2); }
+.arrow-left,.Tabs .nav-item> a:hover{
+    color: #B11F24 !important;
+}
+.Tabs .nav-item> a{
+  color:  rgba(0,0,0,.5) !important;
+}
+.nav-pills .nav-link.active:hover, .nav-pills .nav-link.active,.Homepage a{
+    color: #fff !important;
+}
+
+.tab-content,.login-image{
+    color: black;
+}
+.top-left{
+    position: absolute;
+    top: 8px;
+    left: 76px;
+}
+.arrow-left{
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+    display: inline-block;
+    border-right:10px solid currentColor; 
+    top: 56px;
+    position: relative;
+}
+.col-sm-6{
+    max-width: 49% !important;
+}
+.help-section{
+    /* background-image: url("../../images/background_image.jpg"); */
+    height:500px;
+    display: block;
+    background-size: cover; 
+    min-height: 500px;
+}
+.circular-square {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    background: #fff;
+    border:1px solid#B11F24 ;
+  }
+  .image-section{
+      display: flex;
+      justify-content: space-around;
+  }
+ 
+  
+  .Homepage button{background-image: linear-gradient(to right, #c21500 0%, #ffc500  51%, #c21500  100%)}
+  .Homepage button {
+     margin: 10px;
+     padding: 15px 45px;
+     text-align: center;
+     text-transform: uppercase;
+     transition: 0.5s;
+     background-size: 200% auto;
+     color: white;            
+     box-shadow: 0 0 20px #eee;
+     border-radius: 10px;
+     display: block;
+   }
+
+   .Homepage button:hover {
+     background-position: right center; /* change the direction of the change here */
+     color: #fff;
+     text-decoration: none;
+   }
+  .login-image div{
+      width: 300px;
+      height: 400px;
+      border: 1px solid #B11F24;
+  }

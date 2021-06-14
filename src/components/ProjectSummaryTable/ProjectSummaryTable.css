@@ -1,0 +1,58 @@
+.table{
+    color: #000 !important;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-size: .8em;
+}
+tr a{
+    color: #000;
+    text-decoration: none !important;
+    background-color: transparent !important;
+}
+thead tr{  color:#fff;  background: #ddd linear-gradient(to bottom, #ddd, #331C0D);}
+.react-bootstrap-table tbody tr:hover,.react-bootstrap-table tbody tr:hover a{background-color:#dddddd64; color: #000 !important;}
+.page-item.active .page-link,.btn-secondary{
+    background-color: #ddd !important;
+    border-color: #ddd !important;
+  color: #fff !important;
+} .page-link,.dropdown-menu a{
+    color:#ddd !important;
+}
+.page-item.disabled .page-link{
+    color: #6c757d !important;
+}
+.react-bootstrap-table{
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    font-weight: 700;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.react-bootstrap-table-pagination{
+    display: flex;
+    flex-wrap: wrap;
+     margin-right: 0 !important; 
+     margin-left: 0 !important; 
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: -23px;
+    padding-top: 45px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  }
+.react-bootstrap-table-pagination-total,.react-bootstrap-table-pagination-list{
+    color: black;
+    font-size: 0.8em;
+}
+.react-bootstrap-table-pagination-list a:focus,#pageDropDown:focus{
+box-shadow: none !important;
+}
+#pageDropDown{
+    padding: 0.25rem 0.5rem;
+    font-size: 0.7em;
+}
